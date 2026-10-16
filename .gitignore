@@ -8,3 +8,7 @@
 # Data files
 *.csv
 .data/
+
+# Images
+*.png
+.images/
