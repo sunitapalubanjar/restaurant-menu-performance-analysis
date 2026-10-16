@@ -17,7 +17,8 @@ FROM order_details;
 SELECT order_id, COUNT(item_id) AS num_items 
 FROM order_details
 GROUP BY order_id
-ORDER BY num_items DESC;
+ORDER BY num_items DESC
+LIMIT 10;
 
 --6. How many orders had more than 12 items?
 SELECT COUNT(*) FROM
